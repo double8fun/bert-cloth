@@ -33,7 +33,7 @@ from torch.nn import CrossEntropyLoss
 import sys
 sys.path.append('..')
 
-from pytorch_pretrained_bert.file_utils import cached_path, PYTORCH_PRETRAINED_BERT_CACHE
+from transformers import cached_path, PYTORCH_PRETRAINED_BERT_CACHE
 
 logging.basicConfig(format = '%(asctime)s - %(levelname)s - %(name)s -   %(message)s', 
                     datefmt = '%m/%d/%Y %H:%M:%S',
